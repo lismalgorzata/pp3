@@ -1,0 +1,24 @@
+1. In computer jargon, what’s the difference between a statement and a comment?
+statement is a part of a program that specifies one step of an algorithm
+comment is a part of a program that contains information about the program
+        but has no effect when the program runs.
+2. What does it mean to say that a program is portable?
+it's an ability of a program to run on more than one kind of computer
+3. In common English, what does the word compile mean?
+it's translating a program in a high-level language into a low-level language, all at once,
+    in preparation for later execution
+4. What is an executable? Why is that word used as a noun?
+it's another name for object code that is ready to run on specific hardware.
+
+1. W żargonie komputerowym, jaka jest różnica między stwierdzeniem a komentarzem?
+instrukcja jest częścią programu, która określa jeden krok algorytmu
+komentarz jest częścią programu, która zawiera informacje o programie
+        ale nie ma wpływu, gdy program działa.
+2. Co to znaczy, że program jest przenośny?
+to zdolność programu do działania na więcej niż jednym rodzaju komputera
+3. W powszechnym języku angielskim, co oznacza słowo kompilować?
+to tłumaczenie programu z języka wysokiego poziomu na język niskiego poziomu, za jednym razem,
+    w przygotowaniu do późniejszej realizacji
+4. Co to jest plik wykonywalny? Dlaczego to słowo jest używane jako rzeczownik?
+to inna nazwa kodu obiektowego, który jest gotowy do uruchomienia na określonym sprzęcie.
+
