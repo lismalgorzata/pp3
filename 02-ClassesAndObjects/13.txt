@@ -1,0 +1,4 @@
+Smartphone- brand, model name, height, storage capacity, camera
+            turn on, turn off, turn aeroplane mode
+Bank account- number, password, owner, bank, money
+            open, blocked, top up
