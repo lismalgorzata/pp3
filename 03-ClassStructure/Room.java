@@ -6,7 +6,7 @@ public class Room {
 
     public Room(int number) {
         this.number = number;
-        beds = 2;
+        this.beds = 2;
     }
 
     public Room(int number, int beds) {
@@ -15,6 +15,7 @@ public class Room {
     }
 
     public void checkIn(String guestName) {
+        this.guestName = guestName;
         occupied = true;
     }
 
@@ -26,9 +27,14 @@ public class Room {
         return occupied;
     }
 
-    public void displayStatus() {
+    public void displayRoomStatus() {
         System.out.print("Room: " + number + " | ");
         System.out.print("Beds: " + beds + " | ");
+        System.out.print("Is Occupied: " + isOccupied() + " | "); //this.occupied
         System.out.println("Guest: " + guestName);
+    }
+
+    public String toString() {
+        return "Room number: " + this.number + " | " + "Beds: " + this.beds + " | " + "Is Occupied: " + this.occupied + " | " + "Guest: " + guestName;
     }
 }
