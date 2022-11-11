@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class DrivingLicense {
 
     private String driverName;
@@ -66,7 +68,11 @@ public class DrivingLicense {
         this.drivingLicenseNumber = drivingLicenseNumber;
     }
     public void getYearOfIssue(String yearOfIssue) {
-        this.yearOfIssue = yearOfIssue;
+        int year = LocalDate.now().getYear();
+        if ((Integer.valueOf(yearOfIssue) >= 1980) || Integer.valueOf(yearOfIssue)  < year) {
+            this.yearOfIssue = yearOfIssue;
+        }
+
     }
     public void getDriverLicenseCategory(String driverLicenseCategory) {
         this.drivingLicenseCategory = drivingLicenseCategory;
