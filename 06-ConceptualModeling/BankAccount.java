@@ -63,7 +63,7 @@ public class BankAccount{
         this.type = type;
     }
 
-    public double Withdraw(int sum) {
+    public double Withdraw(double sum) {
         if (sum<this.balance && sum<500) {
             this.balance = this.balance-sum;
         }
