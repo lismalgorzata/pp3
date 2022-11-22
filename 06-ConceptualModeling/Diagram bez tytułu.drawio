@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T08:24:09.164Z" agent="5.0 (Windows)" version="20.5.3" etag="yXteKDUWB4ustecdZHbX" type="github"><diagram id="3x2Bt7xdVJL_rjyPtX1Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-22T08:36:02.498Z" agent="5.0 (Windows)" etag="rdct7Ydy5xcPrKzUReWj" version="20.5.3" type="github">
+  <diagram id="3x2Bt7xdVJL_rjyPtX1Q" name="Strona-1">
+    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-1" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="84" y="180" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-2" value="Name: string&#xa;Age: int&#xa;Level: int&#xa;Items: List&lt;string&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-1">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-1">
+          <mxGeometry y="100" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-4" value="Player(string: name, int age)&#xa;PickUpItem(string Item): void&#xa;HasItem(string Item): boolean&#xa;Sleep(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-1">
+          <mxGeometry y="108" width="240" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-5" value="Mike" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="494" y="182" width="250" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-6" value="Name: &quot;Mike&quot;&#xa;Age: 15&#xa;Level: 55&#xa;Items: List&lt;string&gt;()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-5">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-5">
+          <mxGeometry y="100" width="250" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-8" value="Player(string: name, int age)&#xa;PickUpItem(string Item): void&#xa;HasItem(string Item): boolean&#xa;Sleep(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Courier New;" vertex="1" parent="LVhxX1YSlrZgMX1WxxtX-5">
+          <mxGeometry y="104" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-9" value="Mike&#39;s Game UML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-11" value="Class Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LVhxX1YSlrZgMX1WxxtX-12" value="Object Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="524" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
