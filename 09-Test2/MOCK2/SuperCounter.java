@@ -12,4 +12,10 @@ public class SuperCounter extends Counter {
             i++;
         }
     }
+
+    public static void main(String[] args) {
+        SuperCounter sc = new SuperCounter(19);
+        sc.addN(1);
+        System.out.println(sc.getCounter());
+    }
 }

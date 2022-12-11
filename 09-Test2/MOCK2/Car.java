@@ -13,4 +13,10 @@ public class Car extends Vehicle {
         return specs;
     }
 
+    public static void main(String[] args) {
+        Car c = new Car(5, 250);
+        c.spec();
+
+    }
+
 }

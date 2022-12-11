@@ -6,12 +6,12 @@ public class Arrays {
        int sum1 = 0;
        int sum2 = 0;
         for (int number : arr1) {
-            if (number > 10 && number < 100) {
+            if (number >= 10 && number < 100) {
                 sum1++;
             }
         }
         for (int number : arr2) {
-            if (number > 10 && number < 100) {
+            if (number >= 10 && number < 100) {
                 sum2++;
             }
         }
