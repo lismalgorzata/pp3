@@ -19,6 +19,6 @@ public class Library {
     }
 
     public void addBook( Book book) {
-        //relacja agregacji
+        shelf.add(book);
     }
 }
