@@ -1,7 +1,12 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class TV implements CanOnOff, CanChangeChannel {
     private boolean isOn = false;
     private int channelNo = 1;
     private int volume = 1;
+    private String programs [] = new String[99];
 
     public void on() {
         setIsOn(true);
@@ -14,7 +19,7 @@ public class TV implements CanOnOff, CanChangeChannel {
     public void displayStatus() {
         if (getIsOn()) {
             System.out.println("TV is on: " + getIsOn());
-            System.out.println("Channel: " + getChannelNo());
+            System.out.println("Channel: " + getChannelNo() + " | " + getChannelName(getChannelNo()));
             System.out.println("Volume: " + getVolume());
         } else {
             System.out.println("TV off");
@@ -84,4 +89,32 @@ public class TV implements CanOnOff, CanChangeChannel {
     }
 
 
+
+    public void displayPrograms() {
+        programs[0] = "TVP";
+        programs[1] = "TV1";
+        programs[2] = "TV2";
+        programs[3] = "TV3";
+        programs[4] = "TV4";
+        programs[5] = "TV5";
+        programs[6] = "TV6";
+        programs[7] = "TV7";
+        programs[8] = "TV8";
+        programs[9] = "TV9";
+        programs[10] = "TV10";
+
+        if(getIsOn()) {
+            System.out.println("Programs: ");
+                for (String program : programs) {
+                    if (program != null) {
+                        System.out.print(program + " ");
+                    }
+                }
+            System.out.println();
+        }
+    }
+
+    public String getChannelName(int n) {
+        return programs[n];
+    }
 }
